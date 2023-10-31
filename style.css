@@ -1,0 +1,192 @@
+body{
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+}
+.header{
+       height:150px;
+       background:#A5D0FB;
+       
+}
+.header .logo{
+    width:150px;
+}
+.header .heading{
+    width:800px;
+    height:150px;
+    position: absolute;
+    top:0px;
+    left:20%;
+    line-height:17px;
+    padding: 10px;
+}
+.header h1{
+        color: #030394;
+        text-shadow: 1px 1px grey;
+}
+.header h2{
+    color: #38389f;
+}
+.header h3{
+     color: red;
+}
+.nav{
+     margin-top:-16px;
+     width:100%;
+     height:50px;
+     background:#191970;
+}
+.nav ul{
+   list-style-type:none;  
+}
+.nav ul li{
+          float:left;
+          height:50px;
+          border-right: 1px dotted #fff;
+          
+          
+}
+.nav ul li a{
+             padding:15px;
+             text-decoration:none;
+             text-transform:uppercase;
+             font-size:17px;
+             font-family: sans-serif;
+             font-weight:550;
+             line-height:47px;
+             color:white;
+
+            
+}
+.nav ul li:hover{
+             background:#001200;
+             color:#000; 
+            
+}
+/* home page css */
+.box{
+    width:75%;   
+    margin:30px 180px;
+    box-sizing:border-box;
+}
+.about{
+      width:50%;
+      height:500px;
+      background:;
+      margin:30px;
+      padding:3px;
+      line-height:23px;
+      overflow:auto;
+      
+}
+.about p{
+        text-align:justify;
+}
+.formArea{
+     width:41%;
+     height:400px;
+     margin:0px 30px;
+     float:right;
+}
+.marquee{
+        width:100%;
+        height:300px;
+        background:#DDF7FF;
+        margin:20px 0px;
+        box-shadow: 1px 1px 5px #000;
+        box-sizing:border-box;
+}
+.marquee ul 
+{
+   height:300px;
+   padding:20px;
+   box-sizing:border-box;
+}
+.marquee ul li{
+            font-weight: bold;
+            margin-left:20px;
+            line-height:23px;
+}
+
+span{
+    color:red;
+    font-weight:bold;
+    font-size:10px;
+    margin:-10px;
+    padding:0;
+}
+.button{
+       width:94%;
+       height:210px;
+       margin:30px;        
+
+}
+.button .row1,.row2{
+                  margin-left:7px;
+}
+.button .row1 button{
+           float:left;
+           width:230px;
+           height:60px;
+           margin-top:35px;
+           margin-right:30px;
+}
+.button .row2 button{
+           float:left;
+           width:230px;
+           height:60px;
+           margin-top:30px;
+           margin-right:30px;
+           padding-right:10px;
+}
+.button button{
+            color:blue;
+            font-size:14px;
+            font-weight:bold;
+}
+.button .red{
+          color: red;
+}
+aside .help{
+     width: 100%;
+     height: 200px;
+     margin-top: 20px;
+}
+aside .help .help1 button
+{
+   width: 200px;
+   height: 70px;
+   margin:15px;
+   color: red;
+   font-size: 14px;
+   font-weight: bold;
+
+}
+aside .help .help2 button
+{
+   width: 200px;
+   height: 70px;
+   margin:15px;
+   color: red;
+   margin-top:8px;
+   font-weight: bold;
+   font-size: 14px;
+}
+/* home page css end */
+
+.footer{
+        width:100%;
+        height: 150px;
+        margin-top:30px;
+        background:#0D81A4;
+        border-top: 3px solid #000;
+       
+}
+.footer p{
+          padding: 15px;
+          color: white;
+         text-align: center;
+         line-height:25px;
+         font-size:15px;
+         font-family: arial;
+}
